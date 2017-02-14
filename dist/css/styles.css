@@ -1,10 +1,29 @@
-body {
-  background: purple; }
+* {
+  box-sizing: border-box; }
 
-h2 {
-  color: red; }
+img {
+  width: 100%;
+  display: block; }
 
-h3 {
-  color: green; }
+#app-container .user-card {
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px; }
+  #app-container .user-card h4 {
+    color: tomato; }
+  #app-container .user-card img.profile-img {
+    border-radius: 50%;
+    margin: 10px auto;
+    max-width: 150px; }
+
+#app-container mark {
+  background: #EB974E; }
+
+@media screen and (min-width: 768px) {
+  .user-card {
+    height: 280px; } }
 
 /*# sourceMappingURL=styles.css.map*/
